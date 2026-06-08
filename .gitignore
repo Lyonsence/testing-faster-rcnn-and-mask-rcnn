@@ -42,4 +42,5 @@ data/
 models/
 conda/
 .autodl
-
+pennfudan_data/
+pip/
