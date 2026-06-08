@@ -1,0 +1,45 @@
+# Python 缓存与编译文件
+__pycache__/
+*.py[cod]
+*.so
+
+# 环境与包管理 (重要)
+# 忽略 Conda 环境目录（通常在 /root/miniconda3 或 /opt/conda）
+/root/miniconda3/
+/opt/conda/
+# 忽略虚拟环境
+venv/
+env/
+# 忽略 pip 下载的缓存包
+pip-wheel-metadata/
+*.egg-info/
+
+# 编辑器与 IDE (VSCode)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志与数据文件
+*.log
+*.pth
+*.h5
+*.onnx
+
+#压缩包
+*.zip
+*.tar.gz
+
+
+# AutoDL 特定目录 (重要)
+# 只忽略根目录下的 datasets/ 和 data/ 文件夹，防止上传大数据
+/datasets/
+data/
+models/
+conda/
+.autodl
+
