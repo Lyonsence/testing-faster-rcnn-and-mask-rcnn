@@ -21,6 +21,7 @@
 │   ├── train.py             # Penn-Fudan 训练脚本
 │   ├── train_coco.py        # COCO 训练脚本（支持混合精度、断点续训）
 │   ├── predict.py           # Penn-Fudan 单图推理
+│   ├── validate_coco_per_class.py  # COCO 指标评估
 │   ├── batch_infer_torchvision.py  # COCO 批量推理（按类别颜色可视化）
 │   ├── evaluate_all.py      # Penn-Fudan 全量评估（计算 mAP）
 │   └── ...                  # 其他辅助脚本
